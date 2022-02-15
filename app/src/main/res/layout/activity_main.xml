@@ -14,9 +14,10 @@
         android:text="아이디"/>
 
     <EditText
-        android:id="@+id/inputIdTxt"
+        android:id="@+id/edtID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
         android:hint="아이디 입력"/>
 
     <TextView
@@ -26,7 +27,7 @@
         android:text="비밀번호"/>
 
     <EditText
-        android:id="@+id/inputPassword"
+        android:id="@+id/edtPW"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
